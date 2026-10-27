@@ -1,0 +1,72 @@
+# Kilofy można rozszerzać, dodając kolejną sekcję numeryczną pod levels.
+# area-size określa bok obszaru: 3 = 3x3 (9 bloków), 4 = 4x4 (16 bloków).
+# uses: 0 oznacza nieograniczoną liczbę użyć. max-area-size ogranicza rozmiar dla bezpieczeństwa serwera.
+enabled: true
+max-area-size: 15
+resource-drop-chance: 0.10
+heart-drop-chance: 0.01
+resource-drops:
+  - COAL
+  - RAW_IRON
+  - RAW_COPPER
+  - RAW_GOLD
+  - LAPIS_LAZULI
+  - REDSTONE
+  - DIAMOND
+  - EMERALD
+levels:
+  1:
+    enabled: true
+    name: "Kilof N1"
+    title-color: "&9"
+    area-size: 1
+    area-color: "&a"
+    uses: 500
+    fortune: 5
+    efficiency: 10
+    unbreaking: 5
+    mining-efficiency: 101
+  3:
+    enabled: true
+    name: "Kilof Milionera 3"
+    title-color: "&a"
+    area-size: 3
+    area-color: "&a"
+    uses: 500
+    fortune: 5
+    efficiency: 10
+    unbreaking: 5
+    mining-efficiency: 101
+  4:
+    enabled: true
+    name: "Kilof Milionera 4"
+    title-color: "&a"
+    area-size: 4
+    area-color: "&a"
+    uses: 500
+    fortune: 5
+    efficiency: 10
+    unbreaking: 5
+    mining-efficiency: 101
+  5:
+    enabled: true
+    name: "Kilof Milionera 5"
+    title-color: "&a"
+    area-size: 5
+    area-color: "&a"
+    uses: 500
+    fortune: 5
+    efficiency: 10
+    unbreaking: 5
+    mining-efficiency: 101
+  6:
+    enabled: true
+    name: "Kilof Milionera 6"
+    title-color: "&a"
+    area-size: 6
+    area-color: "&a"
+    uses: 500
+    fortune: 5
+    efficiency: 10
+    unbreaking: 5
+    mining-efficiency: 101

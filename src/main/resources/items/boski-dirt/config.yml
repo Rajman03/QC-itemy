@@ -1,0 +1,38 @@
+# Ustawienia wbudowanego Boskiego Dirta.
+enabled: true
+buff:
+  duration-seconds: 60
+  # Format: EFFECT:level-amplifier; level II means amplifier 1.
+  effects:
+    - RESISTANCE:1
+    - FIRE_RESISTANCE:0
+    - SPEED:1
+    - STRENGTH:1
+    - REGENERATION:0
+    - ABSORPTION:1
+    - HASTE:1
+    - JUMP_BOOST:1
+    - WATER_BREATHING:0
+    - NIGHT_VISION:0
+    - SLOW_FALLING:0
+    - HEALTH_BOOST:1
+    - LUCK:0
+fury:
+  hits: 30
+  damage-hearts: 30
+totem:
+  uses: 5
+  health: 1.0
+cage:
+  duration-seconds: 5
+xray:
+  radius: 8
+  cooldown-seconds: 5
+rainbow:
+  shield-seconds: 5
+treasure:
+  chance: 0.03
+  items:
+    - DIAMOND
+    - EMERALD
+    - GOLD_INGOT

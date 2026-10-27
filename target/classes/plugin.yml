@@ -1,0 +1,23 @@
+name: QC-Itemy
+version: 1.0.0
+description: Wbudowany katalog QC itemów i system spawnerów.
+main: pl.rajman.striderspawner.StriderSpawnerPlugin
+api-version: '1.21'
+depend: [Vault]
+commands:
+  striderspawner:
+    description: Zarządzanie spawnerami i katalogiem itemów
+    usage: /ss give <gracz> [typ] [poziom]
+    aliases: [ss, spawner]
+  item:
+    description: Dodawanie i zmienianie itemów w katalogu
+    usage: /item <id> set|remove, /item heart set
+    permission: striderspawner.admin
+  itemy:
+    description: Otwiera katalog QC itemów
+    usage: /itemy
+    permission: striderspawner.admin
+permissions:
+  striderspawner.admin:
+    description: Pozwala zarządzać spawnerami i katalogiem itemów
+    default: op

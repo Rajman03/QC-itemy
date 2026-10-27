@@ -1,0 +1,26 @@
+# Konfiguracja wbudowanego itemu spawner. Każdy typ moba ma własne ustawienia.
+spawners:
+  STRIDER:
+    enabled: true
+    income-per-second-per-level: 5.0
+    max-level: 10
+    drop:
+      chance: 0.01
+      min-amount: 1
+      max-amount: 1
+  PIG:
+    enabled: true
+    income-per-second-per-level: 5.0
+    max-level: 10
+    drop:
+      chance: 0.01
+      min-amount: 1
+      max-amount: 1
+  COW:
+    enabled: true
+    income-per-second-per-level: 5.0
+    max-level: 10
+    drop:
+      chance: 0.01
+      min-amount: 1
+      max-amount: 1

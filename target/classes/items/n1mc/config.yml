@@ -1,0 +1,9 @@
+# Ustawienia wbudowanego Miecza N1. Zmiany wykonuj w plugins/QC-Itemy/items/n1mc/config.yml.
+enabled: true
+material: NETHERITE_SWORD
+strength-chance: 0.15
+strength-level: 2
+strength-duration-seconds: 5
+cooldown-seconds: 120
+attack-damage: 9.0
+attack-speed: 1.6
