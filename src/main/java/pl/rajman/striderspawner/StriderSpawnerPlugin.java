@@ -1,3 +1,4 @@
+// Project creator: Rajman03
 package pl.rajman.striderspawner;
 
 import net.milkbowl.vault.economy.Economy;
